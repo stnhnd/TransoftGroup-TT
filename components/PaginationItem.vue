@@ -11,7 +11,7 @@
 <script setup>
   const props = defineProps({
     pages: Number,
-    modelValue: String,
+    modelValue: [String, Number],
   })
 
   const emit = defineEmits(['update:modelValue', 'change'])
